@@ -1,0 +1,12 @@
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Warning: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala:5:1 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m5 |[0m [33mdef[0m [36mgoodEnough[0m = [41m???[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  | [33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  | Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E050] Type Error: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala:10:9 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m10 |[0m      [33mif[0m goodEnough(x, guess) [33mthen[0m guess[0m
+[0m[[0m[31merror[0m] [0m[0m   |         [31m^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |         [33mmethod[0m [35mgoodEnough[0m in [33mobject[0m [35mSquare[0m does not take parameters[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

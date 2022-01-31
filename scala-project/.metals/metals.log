@@ -1,0 +1,755 @@
+2022.01.21 22:29:49 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/.metals/lsp.trace.json or /Users/angelcr/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2022.01.21 22:29:49 INFO  logging to file /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/.metals/metals.log[0m
+2022.01.21 22:29:49 INFO  Started: Metals version 0.11.1 in workspace '/Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project' for client Visual Studio Code 1.63.2.[0m
+2022.01.21 22:29:49 INFO  Parse release: 17.0.1[0m
+2022.01.21 22:29:51 INFO  time: initialize in 1.09s[0m
+2022.01.21 22:29:51 WARN  Build server is not auto-connectable.[0m
+2022.01.21 22:30:14 WARN  no build target for: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala[0m
+2022.01.21 22:30:16 INFO  no build target found for /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala. Using presentation compiler with project's scala-library version: 3.1.0[0m
+2022.01.21 22:30:17 INFO  time: code lens generation in 2.45s[0m
+2022.01.21 22:30:41 WARN  no build target for: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala[0m
+2022.01.21 22:30:49 WARN  no build target for: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala[0m
+2022.01.21 22:30:52 WARN  no build target for: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala[0m
+2022.01.21 22:30:54 WARN  no build target for: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala[0m
+Jan 21, 2022 10:32:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 404
+2022.01.21 22:33:15 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala:4: error: [dialect scala213] ( expected but identifier found
+  def abs(x: Double) = if x > 0 then x else -x 
+                          ^[0m
+2022.01.21 22:33:15 WARN  no build target for: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala[0m
+2022.01.21 22:33:48 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala:4: error: [dialect scala213] ( expected but identifier found
+  def abs(x: Double) = if x > 0 then x else -x 
+                          ^[0m
+2022.01.21 22:33:48 WARN  no build target for: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala[0m
+2022.01.21 22:33:56 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala:4: error: [dialect scala213] ( expected but identifier found
+  def abs(x: Double) = if x > 0 then x else -x 
+                          ^[0m
+2022.01.21 22:33:56 WARN  no build target for: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala[0m
+Jan 21, 2022 10:36:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1093
+Jan 21, 2022 10:36:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1133
+2022.01.21 22:37:27 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala:3: error: [dialect scala213] ( expected but identifier found
+  def abs(x: Double) = if x > 0 then x else -x 
+                          ^[0m
+2022.01.21 22:37:27 WARN  no build target for: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala[0m
+2022.01.21 22:39:30 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala:3: error: [dialect scala213] ( expected but identifier found
+  def abs(x: Double) = if x > 0 then x else -x 
+                          ^[0m
+2022.01.21 22:39:30 WARN  no build target for: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala[0m
+2022.01.21 22:41:04 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala:3: error: [dialect scala213] ( expected but identifier found
+  def abs(x: Double) = if x > 0 then x else -x 
+                          ^[0m
+2022.01.21 22:41:04 WARN  no build target for: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala[0m
+2022.01.21 22:41:16 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala:3: error: [dialect scala213] ( expected but identifier found
+  def abs(x: Double) = if x > 0 then x else -x 
+                          ^[0m
+2022.01.21 22:41:16 WARN  no build target for: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala[0m
+2022.01.21 22:41:17 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala:3: error: [dialect scala213] ( expected but identifier found
+  def abs(x: Double) = if x > 0 then x else -x 
+                          ^[0m
+2022.01.21 22:41:17 WARN  no build target for: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala[0m
+2022.01.21 22:41:17 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala:3: error: [dialect scala213] ( expected but identifier found
+  def abs(x: Double) = if x > 0 then x else -x 
+                          ^[0m
+2022.01.21 22:41:17 WARN  no build target for: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala[0m
+2022.01.21 22:41:19 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala:3: error: [dialect scala213] ( expected but identifier found
+  def abs(x: Double) = if x > 0 then x else -x 
+                          ^[0m
+2022.01.21 22:41:19 WARN  no build target for: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala[0m
+2022.01.21 22:41:19 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala:3: error: [dialect scala213] ( expected but identifier found
+  def abs(x: Double) = if x > 0 then x else -x 
+                          ^[0m
+2022.01.21 22:41:19 WARN  no build target for: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala[0m
+2022.01.21 22:41:19 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala:3: error: [dialect scala213] ( expected but identifier found
+  def abs(x: Double) = if x > 0 then x else -x 
+                          ^[0m
+2022.01.21 22:41:19 WARN  no build target for: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala[0m
+2022.01.21 22:41:19 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala:3: error: [dialect scala213] ( expected but identifier found
+  def abs(x: Double) = if x > 0 then x else -x 
+                          ^[0m
+2022.01.21 22:41:19 WARN  no build target for: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala[0m
+2022.01.21 22:41:19 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala:3: error: [dialect scala213] ( expected but identifier found
+  def abs(x: Double) = if x > 0 then x else -x 
+                          ^[0m
+2022.01.21 22:41:19 WARN  no build target for: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala[0m
+2022.01.21 22:41:24 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala:3: error: [dialect scala213] ( expected but identifier found
+  def abs(x: Double) = if x > 0 then x else -x 
+                          ^[0m
+2022.01.21 22:41:24 WARN  no build target for: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala[0m
+2022.01.21 22:41:24 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala:3: error: [dialect scala213] ( expected but identifier found
+  def abs(x: Double) = if x > 0 then x else -x 
+                          ^[0m
+2022.01.21 22:41:24 WARN  no build target for: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala[0m
+2022.01.21 22:41:26 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala:3: error: [dialect scala213] ( expected but identifier found
+  def abs(x: Double) = if x > 0 then x else -x 
+                          ^[0m
+2022.01.21 22:41:26 WARN  no build target for: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala[0m
+2022.01.21 22:41:27 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala:3: error: [dialect scala213] ( expected but identifier found
+  def abs(x: Double) = if x > 0 then x else -x 
+                          ^[0m
+2022.01.21 22:41:27 WARN  no build target for: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala[0m
+2022.01.21 22:42:25 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala:3: error: [dialect scala213] ( expected but identifier found
+  def abs(x: Double) = if x > 0 then x else -x 
+                          ^[0m
+2022.01.21 22:42:25 WARN  no build target for: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala[0m
+2022.01.21 22:42:48 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala:3: error: [dialect scala213] ( expected but identifier found
+  def abs(x: Double) = if x > 0 then x else -x 
+                          ^[0m
+2022.01.21 22:42:48 WARN  no build target for: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala[0m
+2022.01.21 22:42:48 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala:3: error: [dialect scala213] ( expected but identifier found
+  def abs(x: Double) = if x > 0 then x else -x 
+                          ^[0m
+2022.01.21 22:42:48 WARN  no build target for: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala[0m
+2022.01.21 22:42:49 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala:3: error: [dialect scala213] ( expected but identifier found
+  def abs(x: Double) = if x > 0 then x else -x 
+                          ^[0m
+2022.01.21 22:42:49 WARN  no build target for: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala[0m
+2022.01.21 22:42:49 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala:3: error: [dialect scala213] ( expected but identifier found
+  def abs(x: Double) = if x > 0 then x else -x 
+                          ^[0m
+2022.01.21 22:42:49 WARN  no build target for: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala[0m
+2022.01.21 22:42:49 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala:3: error: [dialect scala213] ( expected but identifier found
+  def abs(x: Double) = if x > 0 then x else -x 
+                          ^[0m
+2022.01.21 22:42:49 WARN  no build target for: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala[0m
+2022.01.21 22:42:51 INFO  shutting down Metals[0m
+2022.01.21 22:42:51 ERROR Unexpected error initializing server
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2022.01.25 16:43:48 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/.metals/lsp.trace.json or /Users/angelcr/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2022.01.25 16:43:48 INFO  logging to file /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/.metals/metals.log[0m
+2022.01.25 16:43:48 INFO  Started: Metals version 0.11.1 in workspace '/Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project' for client Visual Studio Code 1.63.2.[0m
+2022.01.25 16:43:48 INFO  Parse release: 17.0.1[0m
+2022.01.25 16:43:50 INFO  time: initialize in 1.41s[0m
+2022.01.25 16:43:50 WARN  Build server is not auto-connectable.[0m
+2022.01.25 16:43:50 WARN  no build target for: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala[0m
+2022.01.25 16:43:50 INFO  skipping build import with status 'Requested'[0m
+Jan 25, 2022 4:43:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2022.01.25 16:43:53 INFO  no build target found for /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/Square.scala. Using presentation compiler with project's scala-library version: 3.1.0[0m
+2022.01.25 16:43:54 INFO  time: code lens generation in 3.73s[0m
+2022.01.25 16:43:54 INFO  time: code lens generation in 3.39s[0m
+2022.01.25 16:44:28 INFO  no build target found for /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc. Using presentation compiler with project's scala-library version: 3.1.0[0m
+2022.01.25 16:44:28 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 14s[0m
+Jan 25, 2022 4:44:29 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 25, 2022 4:44:30 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.01.25 16:45:18 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 0.18s[0m
+2022.01.25 16:45:20 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc:1: error: [dialect scala213] ; expected but : found
+class Rational(x: Int, y: Int):
+                              ^[0m
+[31merror[39m: src/main/scala/week2.worksheet.sc:2:1: expected template body
+
+^
+2022.01.25 16:45:20 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 0.17s[0m
+2022.01.25 16:45:23 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc:1: error: [dialect scala213] ; expected but : found
+class Rational(x: Int, y: Int):
+                              ^[0m
+2022.01.25 16:45:23 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 0.16s[0m
+Jan 25, 2022 4:47:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 4 is not a valid line number, allowed [0..3]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:133)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1592)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1591)
+	... 15 more
+
+2022.01.25 16:47:59 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc:3: error: [dialect scala213] illegal start of declaration (possible cause: missing `=' in front of current method body)
+        if b == 0 then a else gcf(b, a % b)
+        ^[0m
+[31merror[39m: src/main/scala/week2.worksheet.sc:3:9: illegal start of declaration (possible cause: missing `=' in front of current method body)
+        if b == 0 then a else gcf(b, a % b)
+        ^^
+2022.01.25 16:47:59 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 0.13s[0m
+Jan 25, 2022 4:48:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 4 is not a valid line number, allowed [0..3]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:133)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1592)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1591)
+	... 15 more
+
+Jan 25, 2022 4:48:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 4 is not a valid line number, allowed [0..3]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.lineLength$1(Position.scala:57)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:60)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:133)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1592)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1591)
+	... 15 more
+
+2022.01.25 16:48:07 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc:3: error: [dialect scala213] ( expected but identifier found
+        if b == 0 then a else gcf(b, a % b)
+           ^[0m
+2022.01.25 16:48:08 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 0.17s[0m
+2022.01.25 16:50:44 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc:3: error: [dialect scala213] ( expected but identifier found
+        if b == 0 then a else gcf(b, a % b)
+           ^[0m
+2022.01.25 16:50:44 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 0.14s[0m
+2022.01.25 16:50:46 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc:3: error: [dialect scala213] ( expected but identifier found
+        if b == 0 then a else gcf(b, a % b)
+           ^[0m
+2022.01.25 16:50:46 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 0.15s[0m
+2022.01.25 16:50:46 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc:3: error: [dialect scala213] ( expected but identifier found
+        if b == 0 then a else gcf(b, a % b)
+           ^[0m
+2022.01.25 16:50:46 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc:3: error: [dialect scala213] ( expected but identifier found
+        if b == 0 then a else gcf(b, a % b)
+           ^[0m
+2022.01.25 16:50:46 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 0.14s[0m
+2022.01.25 16:50:46 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 0.11s[0m
+2022.01.25 16:50:50 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc:3: error: [dialect scala213] ( expected but identifier found
+        if b == 0 then a else gcf(b, a % b)
+           ^[0m
+2022.01.25 16:50:50 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 0.13s[0m
+2022.01.25 16:59:53 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc:5: error: [dialect scala213] ( expected but identifier found
+        if b == 0 then a else gcf(b, a % b)
+           ^[0m
+2022.01.25 16:59:54 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 0.16s[0m
+2022.01.25 17:00:59 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc:5: error: [dialect scala213] ( expected but identifier found
+        if b == 0 then a else gcf(b, a % b)
+           ^[0m
+2022.01.25 17:00:59 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 0.41s[0m
+2022.01.25 17:01:11 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc:5: error: [dialect scala213] ( expected but identifier found
+        if b == 0 then a else gcf(b, a % b)
+           ^[0m
+2022.01.25 17:01:11 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 0.21s[0m
+2022.01.25 17:01:17 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc:5: error: [dialect scala213] ( expected but identifier found
+        if b == 0 then a else gcf(b, a % b)
+           ^[0m
+2022.01.25 17:01:17 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 0.19s[0m
+2022.01.25 17:01:20 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc:5: error: [dialect scala213] ( expected but identifier found
+        if b == 0 then a else gcf(b, a % b)
+           ^[0m
+2022.01.25 17:01:20 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 0.22s[0m
+2022.01.25 17:01:21 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc:5: error: [dialect scala213] ( expected but identifier found
+        if b == 0 then a else gcf(b, a % b)
+           ^[0m
+2022.01.25 17:01:22 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 0.16s[0m
+2022.01.25 17:01:23 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc:5: error: [dialect scala213] ( expected but identifier found
+        if b == 0 then a else gcf(b, a % b)
+           ^[0m
+[31merror[39m: src/main/scala/week2.worksheet.sc:36:9: 
+value update is not a member of object App.this.Rational
+val b = Rational(4, 9)
+        ^^^^^^^^
+[31merror[39m: src/main/scala/week2.worksheet.sc:38:1: 
+value b is not a member of App.this.Rational
+a  b
+^^^^
+[31merror[39m: 
+week2.worksheet.sc:48 (mdoc generated code) 
+ Recursive value b needs type
+    $doc.binder(b, 35, 4, 35, 5);
+
+
+2022.01.25 17:01:23 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 0.11s[0m
+2022.01.25 17:01:32 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc:5: error: [dialect scala213] ( expected but identifier found
+        if b == 0 then a else gcf(b, a % b)
+           ^[0m
+2022.01.25 17:01:32 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 0.17s[0m
+2022.01.25 17:01:54 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc:5: error: [dialect scala213] ( expected but identifier found
+        if b == 0 then a else gcf(b, a % b)
+           ^[0m
+[31merror[39m: src/main/scala/week2.worksheet.sc:40:1: 
+value unary_- is not a member of App.this.Rational
+-a
+^^
+2022.01.25 17:01:54 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 98ms[0m
+2022.01.25 17:02:00 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc:5: error: [dialect scala213] ( expected but identifier found
+        if b == 0 then a else gcf(b, a % b)
+           ^[0m
+2022.01.25 17:02:00 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 0.18s[0m
+2022.01.25 17:05:31 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc:5: error: [dialect scala213] ( expected but identifier found
+        if b == 0 then a else gcf(b, a % b)
+           ^[0m
+2022.01.25 17:05:31 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 0.19s[0m
+2022.01.25 17:05:37 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc:5: error: [dialect scala213] ( expected but identifier found
+        if b == 0 then a else gcf(b, a % b)
+           ^[0m
+2022.01.25 17:05:37 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 0.16s[0m
+2022.01.25 17:15:40 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc:5: error: [dialect scala213] ( expected but identifier found
+        if b == 0 then a else gcf(b, a % b)
+           ^[0m
+2022.01.25 17:15:40 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 0.3s[0m
+2022.01.25 17:15:43 INFO  shutting down Metals[0m
+2022.01.25 18:23:00 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/.metals/lsp.trace.json or /Users/angelcr/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2022.01.25 18:23:00 INFO  logging to file /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/.metals/metals.log[0m
+2022.01.25 18:23:00 INFO  Started: Metals version 0.11.1 in workspace '/Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project' for client Visual Studio Code 1.63.2.[0m
+2022.01.25 18:23:00 INFO  Parse release: 17.0.1[0m
+2022.01.25 18:23:01 INFO  time: initialize in 1.32s[0m
+2022.01.25 18:23:02 WARN  Build server is not auto-connectable.[0m
+2022.01.25 18:23:01 INFO  skipping build import with status 'Requested'[0m
+2022.01.25 18:23:02 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc:5: error: [dialect scala213] ( expected but identifier found
+        if b == 0 then a else gcf(b, a % b)
+           ^[0m
+Jan 25, 2022 6:23:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2022.01.25 18:23:04 INFO  no build target found for /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc. Using presentation compiler with project's scala-library version: 3.1.0[0m
+2022.01.25 18:23:05 INFO  time: code lens generation in 3.21s[0m
+2022.01.25 18:23:05 INFO  time: code lens generation in 2.36s[0m
+2022.01.25 18:23:05 INFO  time: code lens generation in 1.43s[0m
+2022.01.25 18:23:05 INFO  no build target found for /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc. Using presentation compiler with project's scala-library version: 3.1.0[0m
+2022.01.25 18:23:05 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 3.63s[0m
+2022.01.25 18:23:05 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 0.3s[0m
+2022.01.25 18:23:08 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc:5: error: [dialect scala213] ( expected but identifier found
+        if b == 0 then a else gcf(b, a % b)
+           ^[0m
+2022.01.25 18:23:08 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 0.28s[0m
+2022.01.25 18:23:10 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc:5: error: [dialect scala213] ( expected but identifier found
+        if b == 0 then a else gcf(b, a % b)
+           ^[0m
+2022.01.25 18:23:10 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 0.27s[0m
+2022.01.25 18:23:13 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc:5: error: [dialect scala213] ( expected but identifier found
+        if b == 0 then a else gcf(b, a % b)
+           ^[0m
+2022.01.25 18:23:13 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 0.21s[0m
+2022.01.25 18:53:45 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc:5: error: [dialect scala213] ( expected but identifier found
+        if b == 0 then a else gcf(b, a % b)
+           ^[0m
+2022.01.25 18:53:46 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 0.25s[0m
+2022.01.25 18:53:48 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc:5: error: [dialect scala213] ( expected but identifier found
+        if b == 0 then a else gcf(b, a % b)
+           ^[0m
+2022.01.25 18:53:49 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 0.24s[0m
+2022.01.25 18:53:51 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc:5: error: [dialect scala213] ( expected but identifier found
+        if b == 0 then a else gcf(b, a % b)
+           ^[0m
+2022.01.25 18:53:52 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 0.2s[0m
+2022.01.25 18:53:53 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc:5: error: [dialect scala213] ( expected but identifier found
+        if b == 0 then a else gcf(b, a % b)
+           ^[0m
+2022.01.25 18:53:54 INFO  time: evaluated worksheet 'week2.worksheet.sc' in 0.21s[0m
+2022.01.25 20:28:42 INFO  shutting down Metals[0m
+2022.01.26 19:24:05 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/.metals/lsp.trace.json or /Users/angelcr/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2022.01.26 19:24:06 INFO  logging to file /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/.metals/metals.log[0m
+2022.01.26 19:24:06 INFO  Started: Metals version 0.11.1 in workspace '/Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project' for client Visual Studio Code 1.63.2.[0m
+2022.01.26 19:24:06 INFO  Parse release: 17.0.1[0m
+2022.01.26 19:24:07 INFO  time: initialize in 1.61s[0m
+2022.01.26 19:24:07 WARN  Build server is not auto-connectable.[0m
+2022.01.26 19:24:08 WARN  no build target for: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.sc[0m
+2022.01.26 19:24:08 INFO  skipping build import with status 'Requested'[0m
+2022.01.26 19:24:11 INFO  no build target found for /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week2.worksheet.sc. Using presentation compiler with project's scala-library version: 3.1.0[0m
+2022.01.26 19:24:12 INFO  time: code lens generation in 4.43s[0m
+2022.01.26 19:24:27 WARN  no build target for: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.sc[0m
+java.lang.NullPointerException: Cannot invoke "org.eclipse.lsp4j.MessageActionItem.getTitle()" because "resp" is null
+	at scala.meta.internal.metals.ammonite.Ammonite.$anonfun$maybeImport$3(Ammonite.scala:213)
+	at scala.meta.internal.metals.ammonite.Ammonite.$anonfun$maybeImport$3$adapted(Ammonite.scala:210)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.01.26 19:24:28 INFO  no build target found for /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc. Using presentation compiler with project's scala-library version: 3.1.0[0m
+2022.01.26 19:24:28 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 2.4s[0m
+java.lang.NullPointerException: Cannot invoke "org.eclipse.lsp4j.MessageActionItem.getTitle()" because "resp" is null
+	at scala.meta.internal.metals.ammonite.Ammonite.$anonfun$maybeImport$3(Ammonite.scala:213)
+	at scala.meta.internal.metals.ammonite.Ammonite.$anonfun$maybeImport$3$adapted(Ammonite.scala:210)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.01.26 19:24:50 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:15: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+2022.01.26 19:24:51 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.64s[0m
+2022.01.26 19:24:59 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:15: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+2022.01.26 19:24:59 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.23s[0m
+Jan 26, 2022 7:25:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.01.26 19:25:46 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:15: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+2022.01.26 19:25:46 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.32s[0m
+2022.01.26 19:25:55 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:15: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+2022.01.26 19:25:55 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.24s[0m
+2022.01.26 19:25:58 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:15: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+2022.01.26 19:25:58 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.24s[0m
+2022.01.26 19:26:02 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:15: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+2022.01.26 19:26:02 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.22s[0m
+2022.01.26 19:26:12 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:15: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+2022.01.26 19:26:12 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.22s[0m
+2022.01.26 19:26:14 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:15: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+2022.01.26 19:26:14 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.23s[0m
+2022.01.26 19:26:26 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:15: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+2022.01.26 19:26:26 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.18s[0m
+2022.01.26 19:26:33 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:15: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+2022.01.26 19:26:33 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.23s[0m
+2022.01.26 19:26:44 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:15: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+2022.01.26 19:26:44 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.18s[0m
+2022.01.26 19:26:48 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:15: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+2022.01.26 19:26:48 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.18s[0m
+2022.01.26 19:28:17 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:15: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+[31merror[39m: src/main/scala/week3.worksheet.sc:29:1: 
+value inc is not a member of object App.this.Empty
+Empty.inc(3).inc(5).contains(5)
+^^^^^^^^^
+2022.01.26 19:28:17 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.12s[0m
+2022.01.26 19:28:20 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:15: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+2022.01.26 19:28:21 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.23s[0m
+2022.01.26 19:28:26 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:15: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+2022.01.26 19:28:27 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.16s[0m
+2022.01.26 19:28:29 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:15: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+2022.01.26 19:28:29 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.21s[0m
+2022.01.26 19:37:21 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:15: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+2022.01.26 19:37:21 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.15s[0m
+2022.01.26 19:37:27 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:15: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+2022.01.26 19:37:27 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.16s[0m
+2022.01.26 19:37:34 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:15: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+2022.01.26 19:37:34 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.14s[0m
+2022.01.26 19:37:48 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:15: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+2022.01.26 19:37:48 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.17s[0m
+2022.01.26 19:37:51 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:15: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+2022.01.26 19:37:51 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.14s[0m
+2022.01.26 19:37:54 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:15: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+2022.01.26 19:37:54 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.16s[0m
+2022.01.26 19:38:16 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:15: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+[31merror[39m: src/main/scala/week3.worksheet.sc:7:41: 
+object Empty in class App does not take parameters
+  def inc(x: Int): IntSet = NonEmpty(x, Empty(), Empty())
+                                        ^^^^^
+[31merror[39m: src/main/scala/week3.worksheet.sc:7:50: 
+object Empty in class App does not take parameters
+  def inc(x: Int): IntSet = NonEmpty(x, Empty(), Empty())
+                                                 ^^^^^
+[31merror[39m: src/main/scala/week3.worksheet.sc:25:1: 
+object Empty in class App does not take parameters
+Empty().inc(5).inc(3).contains(3)
+^^^^^
+2022.01.26 19:38:17 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 76ms[0m
+2022.01.26 19:38:23 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:15: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+[31merror[39m: src/main/scala/week3.worksheet.sc:25:1: 
+object Empty in class App does not take parameters
+Empty().inc(5).inc(3).contains(3)
+^^^^^
+2022.01.26 19:38:23 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 54ms[0m
+2022.01.26 19:38:55 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:15: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+2022.01.26 19:38:55 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.17s[0m
+2022.01.26 19:44:36 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:15: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+[31merror[39m: src/main/scala/week3.worksheet.sc:7:41: 
+Found:    App.this.Empty.type
+Required: App.this.IntSet
+  def inc(x: Int): IntSet = NonEmpty(x, Empty, Empty)
+                                        ^^^^^
+[31merror[39m: src/main/scala/week3.worksheet.sc:7:48: 
+Found:    App.this.Empty.type
+Required: App.this.IntSet
+  def inc(x: Int): IntSet = NonEmpty(x, Empty, Empty)
+                                               ^^^^^
+[31merror[39m: src/main/scala/week3.worksheet.sc:25:1: 
+value inc is not a member of object App.this.Empty
+Empty.inc(5).inc(3).contains(3)
+^^^^^^^^^
+2022.01.26 19:44:36 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 80ms[0m
+2022.01.26 19:45:05 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:17: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+[31merror[39m: src/main/scala/week3.worksheet.sc:12:25: 
+Not found: type Intset
+  def union(s: IntSet): Intset = s
+                        ^^^^^^
+[31merror[39m: src/main/scala/week3.worksheet.sc:27:1: 
+value inc is not a member of object App.this.Empty
+Empty.inc(5).inc(3).contains(3)
+^^^^^^^^^
+2022.01.26 19:45:06 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 73ms[0m
+2022.01.26 19:45:09 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:17: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+[31merror[39m: src/main/scala/week3.worksheet.sc:27:1: 
+value inc is not a member of object App.this.Empty
+Empty.inc(5).inc(3).contains(3)
+^^^^^^^^^
+2022.01.26 19:45:09 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 59ms[0m
+2022.01.26 19:46:00 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:17: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+2022.01.26 19:46:00 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.12s[0m
+2022.01.26 19:46:27 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:17: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+[31merror[39m: src/main/scala/week3.worksheet.sc:26:35: illegal start of simple expression
+    def union(s: IntSet): IntSet =
+                                  ^
+2022.01.26 19:46:27 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 95ms[0m
+2022.01.26 19:46:28 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:17: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+[31merror[39m: src/main/scala/week3.worksheet.sc:26:35: illegal start of simple expression
+    def union(s: IntSet): IntSet =
+                                  ^
+2022.01.26 19:46:28 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 69ms[0m
+2022.01.26 19:46:32 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:17: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+[31merror[39m: src/main/scala/week3.worksheet.sc:26:39: 
+Found:    Unit
+Required: App.this.IntSet
+    def union(s: IntSet): IntSet = ???
+                                      ^
+2022.01.26 19:46:32 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 61ms[0m
+2022.01.26 19:46:32 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:17: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+[31merror[39m: src/main/scala/week3.worksheet.sc:26:39: 
+Found:    Unit
+Required: App.this.IntSet
+    def union(s: IntSet): IntSet = ???
+                                      ^
+2022.01.26 19:46:32 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 73ms[0m
+2022.01.26 19:46:38 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:17: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+2022.01.26 19:46:39 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.15s[0m
+[31merror[39m: src/main/scala/week3.worksheet.sc:29:1: 
+object Empty in class App does not take parameters
+Empty().inc(5).inc(3).contains(3)
+^^^^^
+2022.01.26 19:58:53 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 75ms[0m
+[31merror[39m: src/main/scala/week3.worksheet.sc:29:1: 
+value inc is not a member of object App.this.Empty - did you mean Empty.incl?
+Empty.inc(5).inc(3).contains(3)
+^^^^^^^^^
+2022.01.26 19:58:57 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 53ms[0m
+2022.01.26 19:59:08 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.12s[0m
+2022.01.26 19:59:16 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.13s[0m
+2022.01.26 19:59:21 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:18: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+[31merror[39m: src/main/scala/week3.worksheet.sc:30:1: illegal start of simple expression
+}
+^
+2022.01.26 19:59:21 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 74ms[0m
+2022.01.26 20:00:15 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:18: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+2022.01.26 20:00:15 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.12s[0m
+2022.01.26 20:00:24 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:18: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+2022.01.26 20:00:24 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 97ms[0m
+2022.01.26 20:00:24 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.14s[0m
+2022.01.26 20:00:26 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:18: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+2022.01.26 20:00:26 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.11s[0m
+2022.01.26 20:00:27 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:18: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+2022.01.26 20:00:27 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.11s[0m
+2022.01.26 20:00:47 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:18: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+2022.01.26 20:00:48 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.12s[0m
+2022.01.26 20:00:57 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:18: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+2022.01.26 20:00:58 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.11s[0m
+2022.01.26 20:01:10 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:18: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+2022.01.26 20:01:10 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.14s[0m
+2022.01.26 20:01:17 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:18: error: [dialect scala213] ( expected but identifier found
+    if x > elem then right.contains(x)
+       ^[0m
+2022.01.26 20:01:18 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.11s[0m
+2022.01.26 20:01:58 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:18: error: [dialect scala213] ( expected but identifier found
+    if x < elem then left.contains(x)
+       ^[0m
+2022.01.26 20:01:59 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.15s[0m
+2022.01.26 20:02:22 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:18: error: [dialect scala213] ( expected but identifier found
+    if x < elem then left.contains(x)
+       ^[0m
+2022.01.26 20:02:22 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.12s[0m
+2022.01.26 20:02:51 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:18: error: [dialect scala213] ( expected but identifier found
+    if x < elem then left.contains(x)
+       ^[0m
+2022.01.26 20:02:51 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.11s[0m
+2022.01.26 20:03:03 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:18: error: [dialect scala213] ( expected but identifier found
+    if x < elem then left.contains(x)
+       ^[0m
+2022.01.26 20:03:03 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.12s[0m
+2022.01.26 20:03:19 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:18: error: [dialect scala213] ( expected but identifier found
+    if x < elem then left.contains(x)
+       ^[0m
+2022.01.26 20:03:19 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 95ms[0m
+2022.01.26 20:03:26 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:18: error: [dialect scala213] ( expected but identifier found
+    if x < elem then left.contains(x)
+       ^[0m
+2022.01.26 20:03:26 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.15s[0m
+2022.01.26 20:03:28 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:18: error: [dialect scala213] ( expected but identifier found
+    if x < elem then left.contains(x)
+       ^[0m
+2022.01.26 20:03:28 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.12s[0m
+2022.01.26 20:04:07 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:18: error: [dialect scala213] ( expected but identifier found
+    if x < elem then left.contains(x)
+       ^[0m
+2022.01.26 20:04:07 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.11s[0m
+2022.01.26 20:05:44 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:18: error: [dialect scala213] ( expected but identifier found
+    if x < elem then left.contains(x)
+       ^[0m
+2022.01.26 20:05:45 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.12s[0m
+2022.01.26 20:05:53 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:18: error: [dialect scala213] ( expected but identifier found
+    if x < elem then left.contains(x)
+       ^[0m
+2022.01.26 20:05:53 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.1s[0m
+2022.01.26 20:05:58 ERROR scalafmt: /Users/angelcr/programming/coursea-scala/functional-programming-foundamentals/scala-project/src/main/scala/week3.worksheet.sc:18: error: [dialect scala213] ( expected but identifier found
+    if x < elem then left.contains(x)
+       ^[0m
+2022.01.26 20:05:58 INFO  time: evaluated worksheet 'week3.worksheet.sc' in 0.11s[0m
+2022.01.26 20:55:46 INFO  shutting down Metals[0m
