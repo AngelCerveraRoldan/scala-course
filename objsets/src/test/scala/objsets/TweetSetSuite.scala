@@ -11,6 +11,8 @@ class TweetSetSuite extends munit.FunSuite:
     val set4d = set3.incl(d)
     val set5 = set4c.incl(d)
 
+    val mySet = set1.incl(Tweet("10 re head", "10 rt body", 10)).incl(Tweet("11 re head", "11 rt body", 11))
+
   def asSet(tweets: TweetSet): Set[Tweet] =
     var res = Set[Tweet]()
     tweets.foreach(res += _)
@@ -46,6 +48,11 @@ class TweetSetSuite extends munit.FunSuite:
   test("union: with empty set2") {
     new TestSets:
       assertEquals(size(set1.union(set5)), 4)
+  }
+
+  test("largest: set3") {
+    new TestSets:
+      assertEquals(mySet.mostRetweeted.retweets, 11)
   }
 
   test("descending: set5") {
