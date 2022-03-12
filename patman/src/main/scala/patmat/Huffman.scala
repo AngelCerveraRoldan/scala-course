@@ -1,5 +1,7 @@
 package patmat
 
+import scala.annotation.tailrec
+
 /**
  * A huffman code is represented by a binary tree.
  *
@@ -31,7 +33,7 @@ trait Huffman extends HuffmanInterface:
     case e: Leaf => List(e.char)
   }
 
-  def makeCodeTree(left: CodeTree, right: CodeTree) =
+  def makeCodeTree(left: CodeTree, right: CodeTree): CodeTree =
     Fork(left, right, chars(left) ::: chars(right), weight(left) + weight(right))
 
   // Part 2: Generating Huffman trees
@@ -70,7 +72,31 @@ trait Huffman extends HuffmanInterface:
    *       println("integer is  : "+ theInt)
    *   }
    */
-  def times(chars: List[Char]): List[(Char, Int)] = ???
+
+  def times(chars: List[Char]): List[(Char, Int)] = {
+    // Go though every letter from a to z
+
+    @tailrec
+    def occurrences(char: Char, chars: List[Char], acc: Int = 0): (Char, Int) = {
+      if chars.isEmpty then (char, acc)
+      else {
+        val nAcc: Int = if char == chars.head then acc + 1 else acc
+        occurrences(char, chars.tail, nAcc)
+      }
+    }
+
+    @tailrec
+    def allOcc(letters: List[Char], chars: List[Char], acc: List[(Char, Int)] = List()): List[(Char, Int)] = {
+      if letters.isEmpty then acc
+      else allOcc(letters.tail, chars, acc :+ occurrences(letters.head, chars))
+    }
+
+    // This contains every character in chars once
+    val allLetters: List[Char] =
+      List('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z').filter(x => chars.contains(x))
+
+    allOcc(allLetters, chars)
+  }
 
   /**
    * Returns a list of `Leaf` nodes for a given frequency table `freqs`.
