@@ -1,6 +1,7 @@
 package patmat
 
 import scala.annotation.tailrec
+import scala.util.matching.Regex.Match
 
 /**
  * A huffman code is represented by a binary tree.
@@ -127,7 +128,14 @@ trait Huffman extends HuffmanInterface:
   /**
    * Checks whether the list `trees` contains only one single code tree.
    */
-  def singleton(trees: List[CodeTree]): Boolean = ???
+  def singleton(trees: List[CodeTree]): Boolean = trees.length == 1
+//    if trees.length != 1 then false
+//    else trees.head match {
+//      case x: Leaf => true
+//      case x: Fork => false
+//    }
+
+
 
   /**
    * The parameter `trees` of this function is a list of code trees ordered
@@ -141,7 +149,22 @@ trait Huffman extends HuffmanInterface:
    * If `trees` is a list of less than two elements, that list should be returned
    * unchanged.
    */
-  def combine(trees: List[CodeTree]): List[CodeTree] = ???
+  def combine(trees: List[CodeTree]): List[CodeTree] = {
+    @tailrec
+    def insert(fork: CodeTree, list: List[CodeTree], smaller: List[CodeTree] = List()) : List[CodeTree] = {
+      if list.isEmpty then smaller :+ fork
+      else if weight(fork) > weight(list.head) then insert(fork, list.tail, smaller :+ list.head)
+      else (smaller :+ fork) ++ list
+
+    }
+    if trees.length < 2 then trees
+    else
+      // make a new fork containing the two smallest elements
+      val nFork: CodeTree = makeCodeTree(trees.head, trees.tail.head)
+      // Add fork back into the list and return the new list
+      insert(nFork, trees.tail.tail)
+
+  }
 
   /**
    * This function will be called in the following way:
@@ -154,7 +177,9 @@ trait Huffman extends HuffmanInterface:
    * In such an invocation, `until` should call the two functions until the list of
    * code trees contains only one single tree, and then return that singleton list.
    */
-  def until(done: List[CodeTree] => Boolean, merge: List[CodeTree] => List[CodeTree])(trees: List[CodeTree]): List[CodeTree] = ???
+  def until(done: List[CodeTree] => Boolean, merge: List[CodeTree] => List[CodeTree])(trees: List[CodeTree]): List[CodeTree] =
+    if done(trees) then trees
+    else until(done, merge)(merge(trees))
 
   /**
    * This function creates a code tree which is optimal to encode the text `chars`.
@@ -162,8 +187,13 @@ trait Huffman extends HuffmanInterface:
    * The parameter `chars` is an arbitrary text. This function extracts the character
    * frequencies from that text and creates a code tree based on them.
    */
-  def createCodeTree(chars: List[Char]): CodeTree = ???
-
+  def createCodeTree(chars: List[Char]): CodeTree =
+    // Make frequency table
+    val freqTable = times(chars)
+    // Turn into list of Leaf
+    val orderedLeafList = makeOrderedLeafList(freqTable)
+    // Turn into a Fork
+    until(singleton, combine)(orderedLeafList).head
 
   // Part 3: Decoding
 
